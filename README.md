@@ -1,69 +1,56 @@
 # Hi 👋, I'm Inshara Liaquat
+**Deep Learning Researcher | Protein ML & Bioinformatics | MS Software Engineering**
 
-**Master's Student in Software Engineering** | **ML Engineer** | **Building AI for Real Problems**
+🎯 **About Me**
+I am a Deep Learning Researcher specializing in **Computational Biology** and **Protein ML**. My work focuses on training transformer-based protein language models (pLMs) and developing explainable AI (XAI) frameworks to solve complex biological mysteries.
 
----
-
-## 🎯 About Me
-
-I'm an ML engineer and bioinformatics researcher building practical machine learning systems. 
-
-**Currently:** Master's student at Bahria University (graduating Jan 2027)  
-**Focus:** Time series forecasting, data pipelines, and protein prediction models  
-**Goal:** Build scalable ML systems. Landing an ML Engineer role by early 2027.
+* **Currently:** Master’s Thesis Researcher at Bahria University (Graduating Jan 2027)
+* **Research Focus:** Automated protein function prediction, large-scale ablation studies, and model interpretability.
+* **Goal:** Advancing the intersection of AI and structural biology through high-performance computational tools.
 
 ---
 
-## 💼 What I Do
+### 🔬 Research & Technical Expertise
 
-🔬 **ML Research & Engineering**
-- Published research on gene ontology prediction using protein embeddings
-- Built and trained neural networks (MLP, CNN, Transformers) for protein classification
-- Feature engineering & data pipeline design
-- Model evaluation and optimization
-
-🛠️ **Production ML Skills**
-- Data preprocessing & ELT pipelines (Pandas, NumPy)
-- Time series forecasting (ARIMA, LSTM, Transformers)
-- Model training & evaluation (PyTorch, scikit-learn)
-- Clean, production-ready Python code
+* **Protein ML & Language Models:** Expert in generating and optimizing representations using **ESM2 (650M)** and **ProtBERT**.
+* **Deep Learning Architectures:** Proven experience designing and benchmarking multi-label classification models across **Transformers, 1D-CNNs, and MLPs**.
+* **Explainable AI (XAI):** Proficient in gradient-based feature attribution methods like **Integrated Gradients** and **SHAP** to decode black-box model predictions.
+* **Optimization & Training:** Skilled in advanced pipeline techniques including Focal Loss handling for class imbalance, Cosine Annealing, and z-score standardizations.
 
 ---
 
-## 📂 Featured Projects
+### 📂 Featured Research & Projects
 
-| Project | Focus | Status |
-|---------|-------|--------|
-| **[go-term-prediction-ablation](https://github.com/inshra12/go-term-prediction-ablation)** | Protein function prediction using ESM2 embeddings | ✅ Published |
-| **[ml-learning-portfolio](https://github.com/inshra12/ml-learning-portfolio)** | Structured ML fundamentals (Python → Deep Learning) | 🔄 In Progress |
-| **[time-series-forecasting](#)** | End-to-end time series project (Coming June 2026) | 📋 Planned |
-| **[data-pipeline-etl](#)** | Production data pipeline for ML systems (Coming July 2026) | 📋 Planned |
+#### 🧬 [go-term-prediction-ablation](https://github.com)
+**Gene Ontology Prediction & Molecular Dynamics Feature Ablation**
+* Designed and executed a controlled **27-model ablation framework** spanning 9 feature combinations across 3 deep learning architectures to predict 495 GO terms.
+* Implemented a custom **TransformerGO** architecture achieving a top overall $F_{max}$ of **0.343** (a 273% improvement over the naive baseline).
+* Applied **Integrated Gradients** to mathematically prove that ESM2 sequence representations capture 95.5% of model attribution, rendering computationally expensive molecular dynamics (MD) pipelines redundant for this task.
+* *Status:* 📄 Two first-author manuscripts currently under peer review (*PLOS ONE*, *PeerJ*).
 
----
+#### 🫁 [lung-disease-classifier](https://github.com)
+**Multi-Class Respiratory Disease Image Categorization**
+* Built an image classification pipeline comparing GoogleNet and ResNet-50 frameworks on public chest X-ray datasets using PyTorch.
 
-## 🛠️ Tech Stack
-
-**Languages:** Python, JavaScript  
-**ML/Data:** PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy  
-**Tools:** Jupyter, Git, VS Code, Google Colab  
-**Specializations:** Deep Learning, Time Series, Feature Engineering, Bioinformatics
-
----
-
-## 🎓 Recent Work
-
-- **Published:** 27-model ablation study on gene ontology prediction (2 publications)
-- **Learning:** Time series forecasting, MLOps, system design for production ML
-- **Building:** Portfolio projects for ML Engineer role
+#### 📈 [air-quality-risk-predictor](https://github.com)
+**Time-Series Deep Learning Forecasting**
+* Designed a Conv1D time-series deep learning architecture to forecast regional health risks based on atmospheric trends.
 
 ---
 
-## 📫 Get In Touch
+### 🛠️ Tech Stack
 
-- **Email:** inshraliaquat@gmail.com
-- **LinkedIn:** [Inshara Liaquat](https://www.linkedin.com/in/inshara-liaquat)
-- **GitHub:** [inshra12](https://github.com/inshra12)
+* **Languages:** Python, JavaScript, HTML5/CSS3
+* **Deep Learning Frameworks:** PyTorch, Transformers, Multi-label Architectures, CNN1D/Conv2D
+* **Bioinformatics & Protein Tools:** ESM2, ProtBERT, Biopython, UniProt, Protein Data Bank (PDB), ATLAS Database, GO Term Mapping
+* **Explainable AI (XAI):** Integrated Gradients (Captum), SHAP
+* **Data Science & Optimization:** Pandas, NumPy, Scikit-learn, Matplotlib, FocalLoss, AdamW
 
 ---
 
-_Building real ML systems. One project at a time. 🚀_
+### 📫 Get In Touch
+* **Email:** [inshraliaquat@gmail.com](mailto:inshraliaquat@gmail.com)
+* **LinkedIn:** [Inshara Liaquat](https://linkedin.com)
+* **GitHub:** [inshra12](https://github.com)
+
+*Building fast, scalable, and explainable models for the future of biology. 🚀*
