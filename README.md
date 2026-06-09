@@ -21,21 +21,12 @@ I am a Deep Learning Researcher specializing in **Computational Biology** and **
 
 ### 📂 Featured Research & Projects
 
-#### 🧬 [go-term-prediction-ablation](https://github.com)
+#### 🧬 go-term-prediction-ablation
 **Gene Ontology Prediction & Molecular Dynamics Feature Ablation**
 * Designed and executed a controlled **27-model ablation framework** spanning 9 feature combinations across 3 deep learning architectures to predict 495 GO terms.
 * Implemented a custom **TransformerGO** architecture achieving a top overall $F_{max}$ of **0.343** (a 273% improvement over the naive baseline).
 * Applied **Integrated Gradients** to mathematically prove that ESM2 sequence representations capture 95.5% of model attribution, rendering computationally expensive molecular dynamics (MD) pipelines redundant for this task.
 * *Status:* 📄 Two first-author manuscripts currently under peer review (*PLOS ONE*, *PeerJ*).
-
-#### 🫁 [lung-disease-classifier](https://github.com)
-**Multi-Class Respiratory Disease Image Categorization**
-* Built an image classification pipeline comparing GoogleNet and ResNet-50 frameworks on public chest X-ray datasets using PyTorch.
-
-#### 📈 [air-quality-risk-predictor](https://github.com)
-**Time-Series Deep Learning Forecasting**
-* Designed a Conv1D time-series deep learning architecture to forecast regional health risks based on atmospheric trends.
-
 ---
 
 ### 🛠️ Tech Stack
@@ -43,14 +34,14 @@ I am a Deep Learning Researcher specializing in **Computational Biology** and **
 * **Languages:** Python, JavaScript, HTML5/CSS3
 * **Deep Learning Frameworks:** PyTorch, Transformers, Multi-label Architectures, CNN1D/Conv2D
 * **Bioinformatics & Protein Tools:** ESM2, ProtBERT, Biopython, UniProt, Protein Data Bank (PDB), ATLAS Database, GO Term Mapping
-* **Explainable AI (XAI):** Integrated Gradients (Captum), SHAP
+* **Explainable AI (XAI):** Integrated Gradients (Captum)
 * **Data Science & Optimization:** Pandas, NumPy, Scikit-learn, Matplotlib, FocalLoss, AdamW
 
 ---
 
 ### 📫 Get In Touch
 * **Email:** [inshraliaquat@gmail.com](mailto:inshraliaquat@gmail.com)
-* **LinkedIn:** [Inshara Liaquat](https://linkedin.com)
-* **GitHub:** [inshra12](https://github.com)
+* **LinkedIn:** [Inshara Liaquat](https://linkedin.com/in/inshara-liaquat)
+* **GitHub:** [inshra12](https://github.com/inshra12)
 
 *Building fast, scalable, and explainable models for the future of biology. 🚀*
